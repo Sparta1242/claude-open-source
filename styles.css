@@ -229,7 +229,7 @@ body {
 }
 
 .criteria-card.highlight {
-    background: linear-gradient(135deg, var(--primary-color) + 10%, var(--secondary-color) + 10%);
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white;
     border-color: transparent;
 }
