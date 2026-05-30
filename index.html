@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude for Open Source - Free Claude Max for Maintainers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Claude for Open Source</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#criteria">Who Should Apply</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#apply" class="btn-primary">Apply Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Thank you for everything you ship.</h1>
+                <p class="hero-subtitle">Claude Max is on us.</p>
+                <p class="hero-description">Open-source maintainers and contributors keep the ecosystem running. We're giving back with 6 months of free Claude Max 20x.</p>
+                <a href="#apply" class="btn-cta">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About the Program</h2>
+            <p>The Claude for Open Source Program is our way of saying thank you to the maintainers and contributors who keep the open-source ecosystem thriving. Get 6 months of free access to Claude Max, our most capable model with 20x token limits.</p>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="icon">🚀</div>
+                    <h3>Claude Max 20x</h3>
+                    <p>Access our most powerful model with extended context windows</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">⏰</div>
+                    <h3>6 Months Free</h3>
+                    <p>Full access for half a year at no cost</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="icon">💪</div>
+                    <h3>Build Faster</h3>
+                    <p>Supercharge your development with AI assistance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Who Should Apply Section -->
+    <section class="criteria" id="criteria">
+        <div class="container">
+            <h2>Who Should Apply</h2>
+            <p class="criteria-intro">You're eligible if you meet any of these criteria:</p>
+            
+            <div class="criteria-grid">
+                <div class="criteria-card">
+                    <h3>Primary Maintainers</h3>
+                    <p>You're a primary maintainer or core team member of a public repository</p>
+                    <ul class="requirements">
+                        <li>5,000+ GitHub stars, OR</li>
+                        <li>1M+ monthly NPM downloads</li>
+                        <li>Commits, releases, or PR reviews within the last 3 months</li>
+                    </ul>
+                </div>
+                <div class="criteria-card highlight">
+                    <h3>Don't Quite Fit?</h3>
+                    <p>If you maintain something the ecosystem quietly depends on, apply anyway!</p>
+                    <p class="highlight-text">Tell us about your project and why it matters to the community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <h2>What You Get</h2>
+            <div class="benefits-list">
+                <div class="benefit-item">
+                    <span class="check">✓</span>
+                    <div>
+                        <h4>6 Months of Claude Max</h4>
+                        <p>Full access to our most advanced model</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <span class="check">✓</span>
+                    <div>
+                        <h4>20x Token Limits</h4>
+                        <p>Extended context windows for complex tasks</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <span class="check">✓</span>
+                    <div>
+                        <h4>Priority Support</h4>
+                        <p>Dedicated support for your development needs</p>
+                    </div>
+                </div>
+                <div class="benefit-item">
+                    <span class="check">✓</span>
+                    <div>
+                        <h4>API Access</h4>
+                        <p>Use Claude in your tools and workflows</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Section -->
+    <section class="apply" id="apply">
+        <div class="container">
+            <h2>Apply Now</h2>
+            <p>Ready to get free Claude Max for 6 months? Fill out the form below and tell us about your open-source work.</p>
+            
+            <form class="application-form" id="applicationForm">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="github">GitHub Username *</label>
+                    <input type="text" id="github" name="github" placeholder="your-username" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="project">Project Name *</label>
+                    <input type="text" id="project" name="project" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="repoUrl">Repository URL *</label>
+                    <input type="url" id="repoUrl" name="repoUrl" placeholder="https://github.com/username/repo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="stars">GitHub Stars or Monthly NPM Downloads *</label>
+                    <input type="number" id="stars" name="stars" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="role">Your Role *</label>
+                    <select id="role" name="role" required>
+                        <option value="">Select a role</option>
+                        <option value="primary-maintainer">Primary Maintainer</option>
+                        <option value="core-team">Core Team Member</option>
+                        <option value="contributor">Major Contributor</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Tell us about your project *</label>
+                    <textarea id="description" name="description" rows="5" placeholder="Describe your project and its impact on the open-source ecosystem..." required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="activity">Recent Activity (last 3 months) *</label>
+                    <textarea id="activity" name="activity" rows="4" placeholder="Describe your recent commits, releases, or PR reviews..." required></textarea>
+                </div>
+
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the terms and conditions *</label>
+                </div>
+
+                <button type="submit" class="btn-submit">Submit Application</button>
+            </form>
+
+            <div id="successMessage" class="success-message" style="display: none;">
+                <h3>✓ Application Submitted!</h3>
+                <p>Thank you for applying! We'll review your application and get back to you soon.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Claude for Open Source. Supporting the open-source community.</p>
+            <ul class="footer-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
